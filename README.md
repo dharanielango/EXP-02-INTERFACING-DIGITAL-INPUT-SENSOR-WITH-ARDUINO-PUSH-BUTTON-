@@ -1,7 +1,8 @@
 # EXP-02-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON
 
-AIM:  To interface a digital input (push button) and blink and LED upon activation.
-COMPONENTS REQUIRED:
+## AIM:
+  To interface a digital input (push button) and blink and LED upon activation.
+## COMPONENTS REQUIRED:
 1.	1 KΩ Resistor 
 2.	Arduino Uno 
 3.	Bread board 
@@ -29,13 +30,13 @@ PIN DIAGRAM FOR ATMEGA 328
  
 ![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
 
-FIGURE-01
+                          FIGURE-01
 ![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
 
 
 
-FIGURE-02
-PROCEDURE 
+                        FIGURE-02
+## PROCEDURE 
  Open tinker cad account 
 1.	Select Arduino uno , bread board , digital input and digital output 
 2.	Connect the circuit as given in the figure 
@@ -50,7 +51,7 @@ PROCEDURE
 
 
 
-CIRCUIT DIAGRAM 
+## CIRCUIT DIAGRAM :
 
 
 
@@ -60,13 +61,13 @@ CIRCUIT DIAGRAM
 
 
 
-FIGURE -03
+                           FIGURE -03
 
 
 
 
 
-PROGRAM 
+## PROGRAM 
 ```
  int buttonState = 0;
 
@@ -96,11 +97,11 @@ void loop()
 
 
 
-Output of the simulation :
+## Output of the simulation :
 
 ![My image](./circuit%201%20-%20Copy.png)
 
 
-RESULT:
+## RESULT:
 
 Thus the simulation output interfacing digital input sensor with arduino as been completed in tinkercad.
